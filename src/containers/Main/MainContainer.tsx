@@ -51,6 +51,10 @@ const MainContainer = () => {
     window.scrollTo({ top: page * winHei, behavior: "smooth" });
   }, [page]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <Main />
