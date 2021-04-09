@@ -1,0 +1,64 @@
+@import "../../util//color.scss";
+
+.studioinfo {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+
+  &-area {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    flex-direction: column;
+    &-name {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-top: 16rem;
+    }
+
+    &-title {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    hr {
+      margin: 1rem 0;
+      border-color: $line;
+    }
+
+    &-info {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    &-btn {
+      width: 18rem;
+      height: 3.6rem;
+      border: 1px solid $line;
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    margin-top: 20rem;
+
+    &-content {
+      &-title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      &-info {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

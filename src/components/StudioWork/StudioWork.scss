@@ -1,0 +1,33 @@
+@import "../../util//color.scss";
+
+.studioWork {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 10rem;
+
+  &-title {
+    width: 100%;
+    border-bottom: 1px solid $line;
+    font-size: 3rem;
+    font-weight: 800;
+    color: $white;
+  }
+
+  &-list {
+    padding: 0 1rem;
+    min-height: 350rem;
+    &-content {
+      margin-top: 6rem;
+      width: 100%;
+      min-height: 30rem;
+      display: flex;
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+.show {
+  opacity: 1;
+  transform: none;
+}
