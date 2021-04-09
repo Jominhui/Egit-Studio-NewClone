@@ -1,18 +1,12 @@
 @import "../../util//color.scss";
 
-.fixed {
-  width: 100%;
-  min-width: 1920px;
-  min-height: 100vh;
-  background-image: url("../../assets/images/Artist/ArtistBack.svg");
-  position: fixed;
-  z-index: -1;
-}
-
 .artist {
   width: 100%;
+  min-height: 100vh;
   color: $white;
   display: flex;
+  background-image: url("../../assets/images/Artist/ArtistBack.svg");
+  background-attachment: fixed;
   align-items: center;
   flex-direction: column;
   &-box {
@@ -34,11 +28,11 @@
     }
 
     &-list {
-      margin-top: 10rem;
+      margin-top: 12rem;
       display: flex;
       justify-content: space-between;
       opacity: 0;
-      transition: all 0.3s ease;
+      transition: all 0.5s ease;
       &-content {
         &-name {
           font-size: 2rem;

@@ -9,7 +9,6 @@ interface ArtistProps {
 const Artist = ({ artistRef }: ArtistProps) => {
   return (
     <>
-      <div className="fixed" />
       <div className="artist">
         <div className="artist-box">
           <div className="artist-box-area">
@@ -22,7 +21,7 @@ const Artist = ({ artistRef }: ArtistProps) => {
           </div>
           <div ref={artistRef}>
             {ArtistList.map((res) => (
-              <div className="artist-box-list">
+              <div className="artist-box-list sa-up">
                 <div className="artist-box-list-content">
                   <img src={res.img1} />
                   <div className="artist-box-list-content-name">
