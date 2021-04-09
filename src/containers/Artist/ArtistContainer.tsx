@@ -4,17 +4,19 @@ import Artist from "../../components/Artist";
 
 const ArtistContainer = ({}) => {
   const artistRef = useRef<HTMLDivElement>(null);
-  const saTriggerMargin = 500;
+  const saTriggerMargin = 450;
 
   const saFunc = useCallback(() => {
-    if (artistRef.current && artistRef.current.children) {
-      for (const element of artistRef.current.children as any) {
-        if (!element.classList.contains("show")) {
-          if (
-            window.innerHeight >
-            element.getBoundingClientRect().top + saTriggerMargin
-          ) {
-            element.classList.add("show");
+    if (document.body.getBoundingClientRect().top !== 0) {
+      if (artistRef.current && artistRef.current.children) {
+        for (const element of artistRef.current.children as any) {
+          if (!element.classList.contains("show")) {
+            if (
+              window.innerHeight >
+              element.getBoundingClientRect().top + saTriggerMargin
+            ) {
+              element.classList.add("show");
+            }
           }
         }
       }
@@ -31,7 +33,7 @@ const ArtistContainer = ({}) => {
   }, [saFunc]);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo(0, 0);
   }, []);
 
   return (
