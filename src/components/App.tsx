@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import Header from "../components/common/Header";
 import ArtistPage from "../pages/ArtistPage";
+import StudioPage from "../pages/StudioPage";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
           <Route exact path="/" component={MainPage} />
           <Route exact path="/game" component={MainPage} />
           <Route exact path="/artist" component={ArtistPage} />
-          <Route exact path="/studio" component={MainPage} />
+          <Route exact path="/studio" component={StudioPage} />
           <Route exact path="/store" component={MainPage} />
         </Switch>
       </div>
