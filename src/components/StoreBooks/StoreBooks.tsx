@@ -19,8 +19,8 @@ const StoreBooks = ({}: StoreBooksProps) => {
           </div>
         </div>
         <div>
-          {Books.map((res) => (
-            <div className="storebook-list">
+          {Books.map((res, idx) => (
+            <div className="storebook-list" key={idx}>
               <div className="storebook-list-content">
                 <img src={res.book1} />
                 <div className="storebook-list-content-name">{res.name1}</div>

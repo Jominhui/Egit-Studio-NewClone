@@ -20,8 +20,8 @@ const Artist = ({ artistRef }: ArtistProps) => {
             </div>
           </div>
           <div ref={artistRef}>
-            {ArtistList.map((res) => (
-              <div className="artist-box-list sa-up">
+            {ArtistList.map((res, idx) => (
+              <div className="artist-box-list sa-up" key={idx}>
                 <div className="artist-box-list-content">
                   <img src={res.img1} />
                   <div className="artist-box-list-content-name">
