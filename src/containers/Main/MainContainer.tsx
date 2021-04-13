@@ -33,11 +33,12 @@ const MainContainer = () => {
           setPage(page - 1);
         }
       }
+
       setTimeout(() => {
         setLastScroll(document.body.getBoundingClientRect().top);
         setIsScroll(false);
         document.body.classList.remove("hidden");
-      }, 600);
+      }, 750);
     },
     [isScroll]
   );
