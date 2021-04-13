@@ -4,6 +4,7 @@ import MainPage from "../pages/MainPage";
 import Header from "../components/common/Header";
 import ArtistPage from "../pages/ArtistPage";
 import StudioPage from "../pages/StudioPage";
+import StorePage from "../pages/StorePage";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
           <Route exact path="/game" component={MainPage} />
           <Route exact path="/artist" component={ArtistPage} />
           <Route exact path="/studio" component={StudioPage} />
-          <Route exact path="/store" component={MainPage} />
+          <Route exact path="/store" component={StorePage} />
         </Switch>
       </div>
     </>
