@@ -1,0 +1,12 @@
+@import "../../util//color.scss";
+
+.store {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../assets//images/store/store.svg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
