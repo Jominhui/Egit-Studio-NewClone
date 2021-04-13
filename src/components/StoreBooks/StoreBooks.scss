@@ -1,0 +1,43 @@
+@import "../../util//color.scss";
+
+.storebook {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10rem 0;
+  color: $white;
+
+  &-area {
+    width: 100%;
+    &-title {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+    &-content {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+
+  &-list {
+    width: 100%;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    &-content {
+      width: 347px;
+      img {
+        margin-bottom: 0.6rem;
+      }
+
+      hr {
+        margin: 0.6rem 0;
+      }
+      &-name {
+        font-size: 1.5rem;
+        font-weight: 800;
+      }
+    }
+  }
+}
