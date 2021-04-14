@@ -1,4 +1,5 @@
-@import "../../util//color.scss";
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
 
 .artist {
   width: 100%;
@@ -9,6 +10,8 @@
   background-attachment: fixed;
   align-items: center;
   flex-direction: column;
+  animation: fadein 0.2s;
+
   &-box {
     width: 100%;
     max-width: 1200px;

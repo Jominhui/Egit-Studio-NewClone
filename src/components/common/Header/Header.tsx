@@ -10,7 +10,9 @@ const Header = ({}: HeaderProps) => {
     <>
       <div className="header">
         <div className="header-area">
-          <img src={Logo} />
+          <Link to="/">
+            <img src={Logo} />
+          </Link>
           <div className="header-area-menu">
             <Link to="/" className="header-area-menu-content">
               회사소개

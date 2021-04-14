@@ -1,4 +1,5 @@
-@import "../../util//color.scss";
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
 
 .studio {
   width: 100%;
@@ -9,4 +10,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fadein 0.2s;
 }

@@ -1,9 +1,6 @@
-@import "../../util//color.scss";
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
 
 .main {
-  scroll-behavior: smooth;
-
-  a {
-    text-decoration: none;
-  }
+  animation: fadein 0.2s;
 }

@@ -10,7 +10,7 @@ interface GameProps {}
 const Game = ({}: GameProps) => {
   return (
     <>
-      <div>
+      <div className="game">
         <Pitzmaker />
         <Sorcerytale />
         <ProjectP />

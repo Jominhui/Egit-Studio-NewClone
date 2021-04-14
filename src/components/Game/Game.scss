@@ -1,1 +1,5 @@
-/* your css code */
+@import "../../util/animation.scss";
+
+.game {
+  animation: fadein 0.2s;
+}
