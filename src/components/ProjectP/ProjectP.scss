@@ -1,0 +1,49 @@
+@import "../../util//color.scss";
+
+.projectp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: $white;
+
+  &-textcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/ProjectP/blurP.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-area {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        width: 100%;
+        font-size: 3.6rem;
+        font-weight: 700;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $white;
+      }
+      &-info {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-viewcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/ProjectP/projectP.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
