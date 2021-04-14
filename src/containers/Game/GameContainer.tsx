@@ -1,8 +1,8 @@
-import { inject, observer } from "mobx-react";
 import React, { useCallback, useEffect, useState } from "react";
-import Main from "../../components/Main";
+import { observer } from "mobx-react";
+import Game from "../../components/Game";
 
-const MainContainer = () => {
+const GameContainer = ({}) => {
   const [page, setPage] = useState<number>(0);
   const [lastScroll, setLastScroll] = useState<number>(0);
   const [isScroll, setIsScroll] = useState<boolean>(false);
@@ -59,9 +59,9 @@ const MainContainer = () => {
 
   return (
     <>
-      <Main />
+      <Game />
     </>
   );
 };
 
-export default inject("store")(observer(MainContainer));
+export default observer(GameContainer);
