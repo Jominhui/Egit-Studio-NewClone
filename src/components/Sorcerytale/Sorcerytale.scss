@@ -1,0 +1,50 @@
+@import "../../util//color.scss";
+
+.sorcery {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: $white;
+
+  &-textcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/Sorcery/sosury.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-area {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        margin-bottom: 2rem;
+      }
+      &-info {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-viewcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/Sorcery/sosuryblur.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &-icon {
+      position: absolute;
+      bottom: -12rem;
+      right: -12rem;
+    }
+  }
+}
