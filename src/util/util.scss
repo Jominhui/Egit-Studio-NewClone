@@ -29,3 +29,8 @@ body {
 .hidden {
   overflow: hidden;
 }
+
+.up {
+  z-index: 2;
+  opacity: 1;
+}

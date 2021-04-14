@@ -10,7 +10,7 @@ const Sorcerytale = ({}: SorcerytaleProps) => {
   return (
     <>
       <div className="sorcery">
-        <div className="sorcery-textcontent">
+        <div className="sorcery-textcontent up-fadein">
           <div className="sorcery-textcontent-area">
             <img src={logo} className="sorcery-textcontent-area-title" />
             <div className="sorcery-textcontent-area-info">

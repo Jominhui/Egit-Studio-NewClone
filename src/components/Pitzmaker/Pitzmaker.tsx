@@ -8,7 +8,7 @@ interface PitzmakerProps {}
 const Pitzmaker = ({}: PitzmakerProps) => {
   return (
     <>
-      <div className="pitzmaker">
+      <div className="pitzmaker up">
         <div className="pitzmaker-textcontent">
           <div className="pitzmaker-textcontent-area">
             <div className="pitzmaker-textcontent-area-title">피츠메이커</div>

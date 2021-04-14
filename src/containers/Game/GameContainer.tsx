@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import Game from "../../components/Game";
 
@@ -7,6 +7,43 @@ const GameContainer = ({}) => {
   const [lastScroll, setLastScroll] = useState<number>(0);
   const [isScroll, setIsScroll] = useState<boolean>(false);
   const winHei = window.innerHeight;
+  const gameRef = useRef<HTMLDivElement>(null);
+  const start = 500;
+  const end = 1550;
+
+  const saFunc = useCallback(() => {
+    if (document.body.getBoundingClientRect().top !== 0) {
+      console.log("2");
+      if (gameRef.current && gameRef.current.children) {
+        for (const element of gameRef.current.children as any) {
+          if (element.classList.contains("up")) {
+            if (winHei > element.getBoundingClientRect().top - end) {
+              element.classList.remove("up");
+            }
+          }
+          if (!element.classList.contains("up")) {
+            if (winHei > element.getBoundingClientRect().top + start) {
+              element.classList.add("up");
+            }
+          }
+          if (element.classList.contains("up")) {
+            if (winHei > element.getBoundingClientRect().top + end) {
+              element.classList.remove("up");
+            }
+          }
+        }
+      }
+    }
+  }, [gameRef]);
+
+  useEffect(() => {
+    window.addEventListener("load", saFunc);
+    window.addEventListener("scroll", saFunc);
+    return () => {
+      window.removeEventListener("load", saFunc);
+      window.removeEventListener("scroll", saFunc);
+    };
+  }, [saFunc]);
 
   const scrollCallback = useCallback(() => {
     document.body.classList.add("hidden");
@@ -59,7 +96,7 @@ const GameContainer = ({}) => {
 
   return (
     <>
-      <Game />
+      <Game gameRef={gameRef} />
     </>
   );
 };

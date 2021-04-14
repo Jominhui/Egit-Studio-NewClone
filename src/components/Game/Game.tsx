@@ -5,12 +5,14 @@ import Sorcerytale from "../Sorcerytale";
 import ProjectP from "../ProjectP";
 import ProjectS from "../ProjectS";
 
-interface GameProps {}
+interface GameProps {
+  gameRef: React.MutableRefObject<null | HTMLDivElement>;
+}
 
-const Game = ({}: GameProps) => {
+const Game = ({ gameRef }: GameProps) => {
   return (
     <>
-      <div className="game">
+      <div className="game" ref={gameRef}>
         <Pitzmaker />
         <Sorcerytale />
         <ProjectP />

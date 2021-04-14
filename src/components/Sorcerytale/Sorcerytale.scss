@@ -5,15 +5,22 @@
   height: 100vh;
   display: flex;
   color: $white;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.2s;
 
   &-textcontent {
     width: 50%;
+    min-width: 960px;
     height: 100%;
     background-image: url("../../assets/images/Game/Sorcery/sosury.svg");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 
     &-area {
       text-align: center;
