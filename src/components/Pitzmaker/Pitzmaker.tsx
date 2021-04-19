@@ -24,7 +24,7 @@ const Pitzmaker = ({}: PitzmakerProps) => {
           </div>
         </div>
         <div className="pitzmaker-viewcontent">
-          <img src={View} alt="" />
+          <img src={View} alt="" className="pitzmaker-viewcontent-view" />
           <img src={icon} alt="" className="pitzmaker-viewcontent-icon" />
         </div>
       </div>

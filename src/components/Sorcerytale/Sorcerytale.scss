@@ -2,6 +2,9 @@
 
 .sorcery {
   width: 100%;
+  @media (max-width: 1200px) {
+    min-width: 1200px;
+  }
   height: 100vh;
   display: flex;
   color: $white;
@@ -11,10 +14,14 @@
 
   &-textcontent {
     width: 50%;
-    min-width: 960px;
+    min-width: 720px;
+    @media (max-width: 1200px) {
+      min-width: 600px;
+    }
     height: 100%;
     background-image: url("../../assets/images/Game/Sorcery/sosury.svg");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,8 +55,21 @@
     align-items: center;
     position: relative;
 
+    &-view {
+      width: 40rem;
+      @media (max-width: 1200px) {
+        width: 30rem;
+      }
+    }
+
     &-icon {
+      width: 50rem;
       position: absolute;
+      @media (max-width: 1200px) {
+        width: 40rem;
+        bottom: -10rem;
+        right: -10rem;
+      }
       bottom: -12rem;
       right: -12rem;
     }

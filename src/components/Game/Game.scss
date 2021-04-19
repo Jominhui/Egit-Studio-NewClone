@@ -2,6 +2,12 @@
 
 .game {
   width: 100%;
-  min-width: 1920px;
+  min-width: 1440px;
   animation: fadein 0.2s;
+}
+
+@media (max-width: 1200px) {
+  .game {
+    min-width: 1200px;
+  }
 }

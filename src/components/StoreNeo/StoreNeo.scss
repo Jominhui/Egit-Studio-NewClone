@@ -2,7 +2,11 @@
 
 .StoreNeo {
   width: 100%;
-  max-width: 1200px;
+  padding: 0 10rem;
+  @media (max-width: 1440px) {
+    padding: 0 2rem;
+  }
+  min-width: 1200px;
   min-height: 100vh;
 
   img {

@@ -14,8 +14,11 @@
 
   &-box {
     width: 100%;
-    max-width: 1200px;
-    padding: 10rem 0;
+    min-width: 1200px;
+    padding: 10rem;
+    @media (max-width: 1440px) {
+      padding: 10rem 2rem;
+    }
 
     &-area {
       width: 100%;

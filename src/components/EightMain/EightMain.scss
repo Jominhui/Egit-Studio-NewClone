@@ -1,10 +1,14 @@
 .eightmain {
   width: 100%;
+  min-width: 1200px;
   min-height: 100vh;
   background-image: url("../../assets/images/main/main.svg");
   background-position: center;
   background-size: cover;
   padding-top: 15rem;
+  @media (max-height: 800px) {
+    padding-top: 10rem;
+  }
 
   &-area {
     width: 60rem;

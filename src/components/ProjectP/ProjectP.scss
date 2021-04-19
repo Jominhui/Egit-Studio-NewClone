@@ -2,6 +2,9 @@
 
 .projectp {
   width: 100%;
+  @media (max-width: 1200px) {
+    min-width: 1200px;
+  }
   height: 100vh;
   display: flex;
   color: $white;
@@ -11,7 +14,10 @@
 
   &-textcontent {
     width: 50%;
-    min-width: 960px;
+    min-width: 720px;
+    @media (max-width: 1200px) {
+      min-width: 600px;
+    }
     height: 100%;
     background-image: url("../../assets/images/Game/ProjectP/blurP.svg");
     background-size: cover;
@@ -29,7 +35,7 @@
       align-items: center;
 
       &-title {
-        width: 100%;
+        width: 90%;
         font-size: 3.6rem;
         font-weight: 700;
         padding-bottom: 2rem;
@@ -39,6 +45,9 @@
       &-info {
         font-size: 1.4rem;
         font-weight: 600;
+        @media (max-width: 1200px) {
+          font-size: 1.2rem;
+        }
       }
     }
   }

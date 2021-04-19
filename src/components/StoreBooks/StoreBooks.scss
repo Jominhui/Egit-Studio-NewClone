@@ -2,8 +2,11 @@
 
 .storebook {
   width: 100%;
-  max-width: 1200px;
-  padding: 10rem 0;
+  min-width: 1200px;
+  @media (max-width: 1440px) {
+    padding: 10rem 2rem;
+  }
+  padding: 10rem;
   color: $white;
 
   &-area {

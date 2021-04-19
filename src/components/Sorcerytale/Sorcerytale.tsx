@@ -27,7 +27,7 @@ const Sorcerytale = ({}: SorcerytaleProps) => {
           </div>
         </div>
         <div className="sorcery-viewcontent">
-          <img src={View} alt="" />
+          <img src={View} alt="" className="sorcery-viewcontent-view" />
           <img src={people} alt="" className="sorcery-viewcontent-icon" />
         </div>
       </div>
