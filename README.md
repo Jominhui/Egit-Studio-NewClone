@@ -1,21 +1,21 @@
 # Eight Studio New Clone
 
-## info
+## ⭐info
 
 학교 웹프로그래밍 실무 시간에 프로젝트로 만든 사이트입니다.
 그림을 그리면서 보았고 가고싶었던 회사인 에이트 스튜디오 사이트를
 디자인을 새로하고 React와 TypeScript, MobX를 사용하여 만들었습니다.
 
-#### 해당 사이트는 1200 X 900 이상의 해상도에 맞춰 제작이 되었습니다.
+#### ✅해당 사이트는 1200 X 900 이상의 해상도에 맞춰 제작이 되었습니다.
 
-## Skills
+## 📝Skills
 
 - React
 - TypeScript
 - MobX
 - Scss
 
-## Pages
+## 📖Pages
 
 - [Main](#mainpage)
 - [Game](#gamepage)
