@@ -9,9 +9,38 @@
 - MobX
 - Scss
 
+## Pages
+
+[Main](###MainPage)
+[Game](###GamePage)
+[Artist](###ArtistPage)
+[Studio](###StudioPage)
+[Store](###StorePage)
+
 ### MainPage
 
 ![main1](https://user-images.githubusercontent.com/56530830/115174357-13db1c80-a104-11eb-8d37-8b2379407ce2.PNG)
 ![main2](https://user-images.githubusercontent.com/56530830/115174395-25242900-a104-11eb-80df-faf927182b17.PNG)
 ![main3](https://user-images.githubusercontent.com/56530830/115174404-27868300-a104-11eb-980a-6538fdb1ae67.PNG)
 ![main4](https://user-images.githubusercontent.com/56530830/115174411-28b7b000-a104-11eb-8d5c-0af946708853.PNG)
+
+### GamePage
+
+![game1](https://user-images.githubusercontent.com/56530830/115174823-e9d62a00-a104-11eb-9a4d-c95153591f72.PNG)
+![game2](https://user-images.githubusercontent.com/56530830/115174827-eb9fed80-a104-11eb-934d-27e7a1791c38.PNG)
+![game3](https://user-images.githubusercontent.com/56530830/115174828-eb9fed80-a104-11eb-93c3-1fe852ae3880.PNG)
+![gmae4](https://user-images.githubusercontent.com/56530830/115174830-ec388400-a104-11eb-9cd2-fe777ccd17b7.PNG)
+
+### ArtistPage
+
+![artist](https://user-images.githubusercontent.com/56530830/115175005-3c174b00-a105-11eb-8d9e-01f993213733.PNG)
+
+### StudioPage
+
+![studio1](https://user-images.githubusercontent.com/56530830/115175015-3faad200-a105-11eb-8250-56e24e4a4ba5.PNG)
+![studio2](https://user-images.githubusercontent.com/56530830/115175027-433e5900-a105-11eb-8f38-59d220448ac2.PNG)
+
+### StorePage
+
+![book1](https://user-images.githubusercontent.com/56530830/115175009-3e79a500-a105-11eb-9146-7cacb92eed50.PNG)
+![books2](https://user-images.githubusercontent.com/56530830/115175012-3f123b80-a105-11eb-8bb1-7f4e84f8f0c4.PNG)
