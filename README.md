@@ -17,11 +17,11 @@
 
 ## Pages
 
-[Main](###mainpage)
-[Game](###gamepage)
-[Artist](###artistpage)
-[Studio](###studiopage)
-[Store](###storepage)
+- [Main](#mainpage)
+- [Game](#gamepage)
+- [Artist](#artistpage)
+- [Studio](#studiopage)
+- [Store](#storepage)
 
 ### MainPage
 
