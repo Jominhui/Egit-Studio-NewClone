@@ -1,0 +1,66 @@
+@import "../../util/color.scss";
+
+.EightInfo {
+  width: 100%;
+  min-width: 1200px;
+  min-height: 100vh;
+  background-image: url("../../assets/images/main/infoback.svg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 14rem;
+
+  &-area {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    flex-direction: column;
+    &-name {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-top: 16rem;
+      @media (max-height: 900px) {
+        margin-top: 10rem;
+      }
+    }
+
+    &-title {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    hr {
+      margin: 1rem 0;
+      border-color: $line;
+    }
+
+    &-info {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+
+  &-list {
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    @media (max-height: 900px) {
+      margin-top: 10rem;
+    }
+    margin-top: 20rem;
+
+    &-content {
+      &-title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      &-info {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

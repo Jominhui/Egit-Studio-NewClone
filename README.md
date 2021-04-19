@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Eight Studio New Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ⭐info
 
-## Available Scripts
+학교 웹프로그래밍 실무 시간에 프로젝트로 만든 사이트입니다.
+그림을 그리면서 보았고 가고싶었던 회사인 에이트 스튜디오 사이트를
+디자인을 새로하고 React와 TypeScript, MobX를 사용하여 만들었습니다.
 
-In the project directory, you can run:
+#### ✅해당 사이트는 1200 X 900 이상의 해상도에 맞춰 제작이 되었습니다.
 
-### `yarn start`
+## 📝Skills
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- MobX
+- Scss
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📖Pages
 
-### `yarn test`
+- [Main](#mainpage)
+- [Game](#gamepage)
+- [Artist](#artistpage)
+- [Studio](#studiopage)
+- [Store](#storepage)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### MainPage
 
-### `yarn build`
+![main1](https://user-images.githubusercontent.com/56530830/115174357-13db1c80-a104-11eb-8d37-8b2379407ce2.PNG)
+![main2](https://user-images.githubusercontent.com/56530830/115174395-25242900-a104-11eb-80df-faf927182b17.PNG)
+![main3](https://user-images.githubusercontent.com/56530830/115174404-27868300-a104-11eb-980a-6538fdb1ae67.PNG)
+![main4](https://user-images.githubusercontent.com/56530830/115174411-28b7b000-a104-11eb-8d5c-0af946708853.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[돌아가기](#pages)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### GamePage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![game1](https://user-images.githubusercontent.com/56530830/115174823-e9d62a00-a104-11eb-9a4d-c95153591f72.PNG)
+![game2](https://user-images.githubusercontent.com/56530830/115174827-eb9fed80-a104-11eb-934d-27e7a1791c38.PNG)
+![game3](https://user-images.githubusercontent.com/56530830/115174828-eb9fed80-a104-11eb-93c3-1fe852ae3880.PNG)
+![gmae4](https://user-images.githubusercontent.com/56530830/115174830-ec388400-a104-11eb-9cd2-fe777ccd17b7.PNG)
 
-### `yarn eject`
+[돌아가기](#pages)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### ArtistPage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![artist](https://user-images.githubusercontent.com/56530830/115175005-3c174b00-a105-11eb-8d9e-01f993213733.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[돌아가기](#pages)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### StudioPage
 
-## Learn More
+![studio1](https://user-images.githubusercontent.com/56530830/115175015-3faad200-a105-11eb-8250-56e24e4a4ba5.PNG)
+![studio2](https://user-images.githubusercontent.com/56530830/115175027-433e5900-a105-11eb-8f38-59d220448ac2.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[돌아가기](#pages)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### StorePage
 
-### Code Splitting
+![book1](https://user-images.githubusercontent.com/56530830/115175009-3e79a500-a105-11eb-9146-7cacb92eed50.PNG)
+![books2](https://user-images.githubusercontent.com/56530830/115175012-3f123b80-a105-11eb-8bb1-7f4e84f8f0c4.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[돌아가기](#pages)

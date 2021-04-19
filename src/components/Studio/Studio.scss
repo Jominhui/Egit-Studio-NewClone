@@ -1,0 +1,18 @@
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
+
+.studio {
+  width: 100%;
+  min-width: 1200px;
+  @media (max-width: 1440px) {
+    padding: 0 4rem;
+  }
+  min-height: 100vh;
+  background-image: url("../../assets//images/studio//Studio.svg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadein 0.2s;
+}

@@ -1,0 +1,49 @@
+@import "../../util/color.scss";
+
+.StoreNeo {
+  width: 100%;
+  padding: 0 10rem;
+  @media (max-width: 1440px) {
+    padding: 0 2rem;
+  }
+  min-width: 1200px;
+  min-height: 100vh;
+
+  img {
+    margin-top: 10rem;
+  }
+
+  &-area {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    flex-direction: column;
+    &-name {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-top: 10rem;
+    }
+
+    hr {
+      margin: 0.2rem 0;
+      border-color: $white;
+    }
+
+    &-info {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    &-btn {
+      width: 18rem;
+      height: 3.6rem;
+      border: 1px solid $white;
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

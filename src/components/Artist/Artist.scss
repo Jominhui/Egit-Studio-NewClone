@@ -1,0 +1,59 @@
+@import "../../util/color.scss";
+@import "../../util/animation.scss";
+
+.artist {
+  width: 100%;
+  min-height: 100vh;
+  color: $white;
+  display: flex;
+  background-image: url("../../assets/images/Artist/ArtistBack.svg");
+  background-attachment: fixed;
+  align-items: center;
+  flex-direction: column;
+  animation: fadein 0.2s;
+
+  &-box {
+    width: 100%;
+    min-width: 1200px;
+    padding: 10rem;
+    @media (max-width: 1440px) {
+      padding: 10rem 2rem;
+    }
+
+    &-area {
+      width: 100%;
+      &-title {
+        font-size: 4rem;
+        font-weight: 800;
+      }
+      &-content {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+
+    &-list {
+      margin-top: 12rem;
+      display: flex;
+      justify-content: space-between;
+      opacity: 0;
+      transition: all 0.5s ease;
+      &-content {
+        &-name {
+          font-size: 2rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+
+.sa-up {
+  transform: translate(0, 100px);
+}
+
+.show {
+  opacity: 1;
+  transform: none;
+}

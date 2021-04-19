@@ -1,0 +1,77 @@
+@import "../../util/color.scss";
+
+.sorcery {
+  width: 100%;
+  @media (max-width: 1200px) {
+    min-width: 1200px;
+  }
+  height: 100vh;
+  display: flex;
+  color: $white;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.2s;
+
+  &-textcontent {
+    width: 50%;
+    min-width: 720px;
+    @media (max-width: 1200px) {
+      min-width: 600px;
+    }
+    height: 100%;
+    background-image: url("../../assets/images/Game/Sorcery/sosury.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &-area {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        margin-bottom: 2rem;
+      }
+      &-info {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-viewcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/Sorcery/sosuryblur.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &-view {
+      width: 40rem;
+      @media (max-width: 1200px) {
+        width: 30rem;
+      }
+    }
+
+    &-icon {
+      width: 50rem;
+      position: absolute;
+      @media (max-width: 1200px) {
+        width: 40rem;
+        bottom: -10rem;
+        right: -10rem;
+      }
+      bottom: -12rem;
+      right: -12rem;
+    }
+  }
+}

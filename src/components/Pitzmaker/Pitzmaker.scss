@@ -1,0 +1,89 @@
+@import "../../util/color.scss";
+
+.pitzmaker {
+  width: 100%;
+  @media (max-width: 1200px) {
+    min-width: 1200px;
+  }
+  height: 100vh;
+  display: flex;
+  color: $white;
+  justify-content: flex-end;
+  position: relative;
+
+  &-textcontent {
+    width: 50%;
+    min-width: 720px;
+    @media (max-width: 1200px) {
+      min-width: 600px;
+    }
+    height: 100%;
+    background-image: url("../../assets/images/Game/Pitzmaker/Pitzmaker.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &-area {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        width: 100%;
+        font-size: 3.6rem;
+        font-weight: 700;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $white;
+      }
+      &-info {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      &-btn {
+        width: 18rem;
+        height: 3.6rem;
+        border: 1px solid $white;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  &-viewcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/Pitzmaker/blurPitz.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &-view {
+      width: 40rem;
+      @media (max-width: 1200px) {
+        width: 30rem;
+      }
+    }
+
+    &-icon {
+      width: 14rem;
+
+      @media (max-width: 1200px) {
+        width: 10rem;
+      }
+      position: absolute;
+      bottom: 4rem;
+      right: 4rem;
+    }
+  }
+}

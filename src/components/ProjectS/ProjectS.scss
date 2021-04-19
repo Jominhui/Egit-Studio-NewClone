@@ -1,0 +1,65 @@
+@import "../../util/color.scss";
+
+.projects {
+  width: 100%;
+  @media (max-width: 1200px) {
+    min-width: 1200px;
+  }
+  height: 100vh;
+  display: flex;
+  color: $white;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.2s;
+
+  &-textcontent {
+    width: 50%;
+    min-width: 720px;
+    @media (max-width: 1200px) {
+      min-width: 600px;
+    }
+    height: 100%;
+    background-image: url("../../assets/images/Game/ProjectS/blurS.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &-area {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        width: 100%;
+        font-size: 3.6rem;
+        font-weight: 700;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $white;
+      }
+      &-info {
+        font-size: 1.4rem;
+        font-weight: 600;
+        @media (max-width: 1200px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  &-viewcontent {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/images/Game/ProjectS/projectS.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
