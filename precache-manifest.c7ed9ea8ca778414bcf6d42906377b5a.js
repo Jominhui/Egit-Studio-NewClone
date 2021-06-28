@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ef7d1efaf405861f9599bf098996b3e",
+    "revision": "720d098bf64f5fd2eab65b543ccd5553",
     "url": "/eight-studio-newclone/index.html"
   },
   {

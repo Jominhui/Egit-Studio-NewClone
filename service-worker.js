@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eight-studio-newclone/precache-manifest.3c5a969d2023b955c849e698f76ee6b6.js"
+  "/eight-studio-newclone/precache-manifest.c7ed9ea8ca778414bcf6d42906377b5a.js"
 );
 
 self.addEventListener('message', (event) => {
