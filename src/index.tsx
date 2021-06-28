@@ -10,7 +10,7 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <Provider store={stores}>
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="eight-studio-newclone/">
         <App />
       </BrowserRouter>
     </React.StrictMode>
